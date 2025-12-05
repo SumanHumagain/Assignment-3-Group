@@ -3,7 +3,6 @@
 #include <sstream>
 #include <iostream>
 #include <algorithm>
-#include <sys/stat.h>
 
 using namespace std;
 
@@ -11,8 +10,8 @@ namespace Utils {
 
     // File operations
     bool fileExists(const string& path) {
-        struct stat buffer;
-        return (stat(path.c_str(), &buffer) == 0);
+        ifstream file(path);
+        return file.good();
     }
 
     string readFile(const string& path) {
