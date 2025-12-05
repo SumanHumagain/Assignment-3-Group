@@ -1,0 +1,11 @@
+timestamp,severity,source,message
+"2025-12-03 09:00:00",WARNING,firewall,"Multiple connection attempts from 10.0.0.99"
+"2025-12-03 09:05:15",ERROR,firewall,"Port scan detected from 172.16.0.50"
+"2025-12-03 09:10:30",INFO,firewall,"Allowed HTTPS traffic to 192.168.1.10"
+"2025-12-03 09:15:45",CRITICAL,firewall,"Failed login attempt for admin account"
+"2025-12-03 09:20:00",CRITICAL,firewall,"Failed login attempt for admin account"
+"2025-12-03 09:25:15",CRITICAL,firewall,"Failed login attempt for admin account"
+"2025-12-03 09:30:30",WARNING,firewall,"Unusual outbound traffic to suspicious IP"
+"2025-12-03 09:35:45",ERROR,firewall,"Blocked malicious payload in HTTP request"
+"2025-12-03 09:40:00",INFO,firewall,"VPN connection established"
+"2025-12-03 09:45:15",CRITICAL,firewall,"Privilege escalation attempt detected"

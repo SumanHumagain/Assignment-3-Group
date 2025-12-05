@@ -32,6 +32,13 @@ private:
     // HTTP request helper
     string makeHttpRequest(const string& endpoint, const string& payload);
 
+    // JSON utilities
+    string escapeJson(const string& input);
+    string extractResponseContent(const string& rawResponse);
+
+    // Security: validate URL and prevent injection
+    bool validateUrl(const string& url);
+
 public:
     OllamaClient();
     explicit OllamaClient(const OllamaConfig& cfg);

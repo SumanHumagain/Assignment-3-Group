@@ -1,0 +1,20 @@
+Dec  3 10:15:32 webserver sshd[1234]: Failed password for admin from 192.168.1.100 port 54321 ssh2
+Dec  3 10:15:45 webserver sshd[1234]: Failed password for admin from 192.168.1.100 port 54322 ssh2
+Dec  3 10:16:02 webserver sshd[1234]: Failed password for admin from 192.168.1.100 port 54323 ssh2
+Dec  3 10:16:18 webserver sshd[1234]: Failed password for admin from 192.168.1.100 port 54324 ssh2
+Dec  3 10:16:35 webserver sshd[1234]: Failed password for admin from 192.168.1.100 port 54325 ssh2
+Dec  3 10:20:15 webserver kernel: Firewall: INPUT DROP: SRC=10.0.0.50 DST=192.168.1.1 PROTO=TCP DPT=23
+Dec  3 10:25:43 webserver sudo: user1 : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/user1 ; COMMAND=/bin/bash
+Dec  3 10:30:12 webserver sshd[2345]: Accepted password for admin from 192.168.1.100 port 54330 ssh2
+Dec  3 10:35:20 webserver sudo: admin : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/systemctl stop firewall
+Dec  3 10:40:55 webserver kernel: Possible SYN flooding on port 80. Sending cookies.
+Dec  3 10:45:30 webserver auditd: Audit daemon is low on disk space for logging
+Dec  3 10:50:15 webserver sshd[3456]: Failed password for root from 203.0.113.45 port 44556 ssh2
+Dec  3 10:50:22 webserver sshd[3456]: Failed password for root from 203.0.113.45 port 44557 ssh2
+Dec  3 10:50:29 webserver sshd[3456]: Failed password for root from 203.0.113.45 port 44558 ssh2
+Dec  3 11:00:45 webserver httpd: 404 GET /admin/config.php HTTP/1.1 from 198.51.100.23
+Dec  3 11:05:12 webserver systemd: Starting unauthorized service at boot
+Dec  3 11:10:33 webserver PAM: Authentication failure for user from 192.168.1.150
+Dec  3 11:15:20 webserver sshd[4567]: Invalid user hacker from 45.33.12.88 port 33445
+Dec  3 11:20:05 webserver kernel: SELinux: Denied execution of /tmp/suspicious_script
+Dec  3 11:25:40 webserver cron: Unauthorized cron job detected for user daemon
