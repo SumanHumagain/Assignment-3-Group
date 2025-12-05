@@ -1,0 +1,23 @@
+=== THREAT ANALYSIS REPORT ===
+
+PATTERN DETECTION RESULTS:
+Total Threats Detected: 2
+
+Severity Breakdown:
+  HIGH: 2
+
+Detailed Findings:
+
+[1] Brute Force Attack - HIGH
+    Description: Detected 5 failed login attempts from webserver:sshd[1234]
+    Related Log Entries: 1
+
+[2] Brute Force Attack - HIGH
+    Description: Detected 3 failed login attempts from webserver:sshd[3456]
+    Related Log Entries: 1
+
+
+=== AI-POWERED ANALYSIS ===
+
+AI analysis unavailable: Failed to extract response content
+Note: Ensure OLLAMA is running (http://localhost:11434)
